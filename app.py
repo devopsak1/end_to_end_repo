@@ -7,5 +7,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
+st.write('Course Details Table....')
 
 st.dataframe(df)
